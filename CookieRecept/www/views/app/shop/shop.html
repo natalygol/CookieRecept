@@ -1,0 +1,38 @@
+﻿<ion-view view-title="Поиск рецептов" class="shop-view">
+    <ion-content>
+        <div class="list">
+            <div class="item item-divider title">
+                <i class="icon ion-ios-list-outline"></i> Категории 
+                <select class="item item-icon-left settings-option">
+                    <option value="Салаты">Салаты</option>
+                    <option value="Закуски">Закуски</option>
+                    <option value="Супы">Супы</option>
+                    <option value="Мясо">Мясо</option>
+                    <option value="Рыба">Рыба</option>
+                    <option value="Овощи">Овощи</option>
+                    <option value="Выпечка">Выпечка</option>
+                    <option value="Десерты">Десерты</option>
+                    <option value="Напитки">Напитки</option>
+                    <option value="Соусы и маринады">Соусы и маринады</option>
+                </select>
+            </div>
+            <div class="item item-divider title">
+                <i class="icon ion-android-stopwatch"></i> Время приготовления
+                <div class="item item-icon-left settings-option" id="cookingtime">
+                    <p>
+                        <label>От:</label>
+                        <input type="number" placeholder="Введите минимальное время"/>
+                    </p>
+
+                    <p>
+                        <label color="primary" fixed>До:</label>
+                        <input type="number" placeholder="Введите максимальное время"/>
+                    </p>
+                </div>
+            </div>
+        </div>
+            <button class="button button-full button-positive">
+                Начать поиск
+            </button>
+    </ion-content>
+</ion-view>
